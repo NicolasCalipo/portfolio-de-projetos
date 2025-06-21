@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="images/nicolas.jpg" alt="avatar do Nicolas" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Nicolas_</p>
+        <h1>Eu sou aluno de programação</h1>
+        <p>Eu sou estudante e estou aprendendo pensamento computacional. 
+            É um jeito de pensar para resolver problemas, como um computador faz!</p>
+            <p>Para aprender isso, eu uso HTML, CSS e JavaScript. Com elas, a gente pode criar sites e jogos incríveis!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/niflix.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">NIFLIX</h5>
+                        <p class="card-text">Esse projeto é uma página da web super bacana que mostra um catálogo de vídeos do universo Harry Potter. 
+                            Nela, você encontra vídeos de curiosidades sobre Harry Potter!
+                            Tudo isso é feito com uns toques especiais de CSS para deixar a página com um visual incrível e fácil de navegar.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/em busca da cidade perdida.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Em Busca Da Cidade Perdida</h5>
+                        <p class="card-text">Embarque em uma jornada incrível com este jogo de aventura interativo! 
+                            Prepare-se para uma Aventura Épica!
+                            Cada decisão que você toma afeta diretamente a história, revelando novos caminhos e desafios. 
+                            Prepare-se para um universo onde suas escolhas podem mudar tudo!</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/pingpong.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Ping Pong
+                        </h5>
+                        <p class="card-text">Este projeto é um jogo de Ping Pong superdivertido, feito no editor P5.js! 
+                                            Prepare-se para controlar sua raquete e desafiar a gravidade enquanto a bolinha viaja pelo espaço. 
+                                             Será que você consegue ser o campeão cósmico do Ping Pong?
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Os Meus Vídeos de Curiosidades Favoritos no Niflix!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Imagina um lugar no Niflix onde você pode mostrar todos os teus vídeos de curiosidades favoritos de uma forma super bacana! 
+                    É exatamente isso que este projeto faz: ele cria uma página da web personalizada, usando HTML e CSS, para exibires a tua coleção.</p>
+                    <p>Nessa página, cada vídeo tem uma descrição rápida, o canal do criador, o ano em que foi lançado e até um link para assistires e partilhares com os teus amigos! 
+                    Tudo foi pensado para ser fácil de ver em qualquer tela, seja no computador ou no telemóvel, e tem um visual suave e convidativo, 
+                    com cores e fontes escolhidas a dedo para te sentires à vontade enquanto exploras a tua própria coleção virtual.</p>
+                    <p>É como ter um pedacinho especial do Niflix só para os teus vídeos de curiosidades preferidos!</p>
+                    <img src="images/niflix.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/NicolasCalipo/NIFLIX">Ver local do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Prepare-se para uma Aventura Épica!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Embarque em uma jornada incrível com este jogo de aventura interativo! 
+                        Aqui, você é o protagonista e suas escolhas moldam o destino de um mundo cheio de mistérios.
+                    </p>
+                    <p>Cada decisão que você toma afeta diretamente a história, revelando novos caminhos e desafios. 
+                        Prepare-se para um universo onde suas escolhas podem mudar tudo!</p>
+                    <p>Qual será o seu primeiro passo nesta aventura?</p>
+                    <img src="images/em busca da cidade perdida.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/NicolasCalipo/Em-busca-da-cidade-perdida">Ver local do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Prepare-se para um Ping Pong</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um jogo de Ping Pong superdivertido, feito no editor P5.js! 
+                        Prepare-se para controlar sua raquete e desafiar a gravidade enquanto a bolinha viaja pelo espaço. 
+                        Será que você consegue ser o campeão cósmico do Ping Pong?</p>
+                    <img src="images/pingpong.jpg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/NicolasCalipo/full/MULCuRGn7">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/NicolasCalipo">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Nicolas Calipo Santos.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
